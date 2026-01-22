@@ -11,7 +11,7 @@ function Homepage() {
         </h1>
       </header>
 
-      {/* Main content */}
+      
       <main className="mt-6 flex flex-col items-center">
         {/* Instruction text */}
         <p className="text-center text-lg mb-4">
