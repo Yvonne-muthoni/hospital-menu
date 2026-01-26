@@ -20,7 +20,7 @@ function Homepage() {
 
         {/* QR Code centered */}
         <div className="bg-white p-4 rounded-lg mb-2 shadow-md">
-          <QRCodeCanvas value="http://192.168.1.105:5173/menupage" size={200} />
+          <QRCodeCanvas value="https://hospital-menu-yourname.vercel.app/#/menupage" size={200} />
         </div>
 
         {/* Scan instruction */}
