@@ -1,22 +1,21 @@
 [
   {
     "id": 1,
-    "name": "Tea &  Bread",
+    "name": "Tea & Bread",
     "category": "breakfast",
     "price": 150,
     "diet": "regular",
     "available": true,
-    "image":"/src/assets/images/Breakfast1.jpg"
-
+    "image": "/images/Breakfast1.jpg"
   },
   {
     "id": 2,
-    "name": "Omlette",
+    "name": "Omelette",
     "category": "breakfast",
     "price": 200,
     "diet": "diabetic",
     "available": true,
-    "image":"/src/assets/images/Breakfast2.jpg"
+    "image": "/images/Breakfast2.jpg"
   },
   {
     "id": 3,
@@ -25,7 +24,7 @@
     "price": 450,
     "diet": "regular",
     "available": true,
-    "image":"/src/assets/images/Lunch1.jpg"
+    "image": "/images/Lunch1.jpg"
   },
   {
     "id": 4,
@@ -34,7 +33,7 @@
     "price": 350,
     "diet": "low-sodium",
     "available": true,
-    "image":"/src/assets/images/Lunch 2.jpg"
+    "image": "/images/Lunch2.jpg"
   },
   {
     "id": 5,
@@ -43,7 +42,7 @@
     "price": 300,
     "diet": "low-sodium",
     "available": false,
-    "image":"/src/assets/images/Dinner1.jpg"
+    "image": "/images/Dinner1.jpg"
   },
   {
     "id": 6,
@@ -52,6 +51,6 @@
     "price": 300,
     "diet": "low-sodium",
     "available": false,
-    "image":"/src/assets/images/Dinner 3.jpg"
+    "image": "/images/Dinner3.jpg"
   }
 ]
