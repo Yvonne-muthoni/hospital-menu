@@ -4,7 +4,7 @@ import { QRCodeCanvas } from "qrcode.react";
 function Homepage() {
   return (
     <div className="min-h-screen w-full bg-gray-50 px-4 py-6">
-      {/* Header at top-left */}
+      
       <header className="w-full">
         <h1 className="text-left text-4xl md:text-5xl font-bold text-blue-700">
           Avenue Hospital
@@ -13,7 +13,7 @@ function Homepage() {
 
       
       <main className="mt-6 flex flex-col items-center">
-        {/* Instruction text */}
+        
         <p className="text-center text-lg mb-4">
           Scan the QR code below to view today's menu and place your order.
         </p>

@@ -4,10 +4,8 @@ import menuData from "../data/menu.json";
 function Menu() {
   const [orders, setOrders] = useState([]);
 
-  // Group meals by category
   const categories = [...new Set(menuData.map((meal) => meal.category))];
 
-  // Add meal to orders
   const handleOrder = (meal) => {
     setOrders([...orders, meal]);
     alert(`${meal.name} has been ordered!`);
