@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Tea & Bread",
+    "category": "breakfast",
+    "price": 150,
+    "diet": "regular",
+    "available": true,
+    "image": "/images/Breakfast1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Omelette",
+    "category": "breakfast",
+    "price": 200,
+    "diet": "diabetic",
+    "available": true,
+    "image": "/images/Breakfast2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Rice & Beef Stew",
+    "category": "lunch",
+    "price": 450,
+    "diet": "regular",
+    "available": true,
+    "image": "/images/Lunch1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ugali & Sukuma Wiki",
+    "category": "lunch",
+    "price": 350,
+    "diet": "low-sodium",
+    "available": true,
+    "image": "/images/Lunch2.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Vegetable Soup",
+    "category": "dinner",
+    "price": 300,
+    "diet": "low-sodium",
+    "available": false,
+    "image": "/images/Dinner1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Chicken Stew & Rice",
+    "category": "dinner",
+    "price": 300,
+    "diet": "low-sodium",
+    "available": false,
+    "image": "/images/Dinner3.jpg"
+  }
+]
