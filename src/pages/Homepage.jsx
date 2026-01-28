@@ -16,7 +16,7 @@ function Homepage() {
 
       <div className="bg-white p-4 rounded-lg shadow-md">
         <QRCodeCanvas
-          value="https://hospital-menu-62ld.vercel.app/menupage" 
+          value="https://hospital-menu-xnzq.vercel.app/menupage" 
           size={200}
         />
       </div>
