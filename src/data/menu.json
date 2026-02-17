@@ -1,56 +1,168 @@
-[
-  {
-    "id": 1,
-    "name": "Tea & Bread",
-    "category": "breakfast",
-    "price": 150,
-    "diet": "regular",
-    "available": true,
-    "image": "/images/Breakfast1.jpg"
+{
+  "Monday": {
+    "breakfast": [
+      {
+        "name": "Fresh Juice",
+        "image": "/images/Breakfast1.jpeg"
+      },
+      {
+        "name": "Fruit Salad",
+        "image": "./images/Breakfast2.jpeg"
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Chicken Stew",
+        "image": "/images/Lunch1.jpeg"
+      },
+      {
+        "name": "Ugali",
+        "image": "/images/Lunch3.jpeg"
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Fish",
+        "image": "/images/Dinner1.jpeg"
+      },
+      {
+        "name": "Matoke",
+        "image": "/images/Dinner2.jpeg"
+      }
+    ]
   },
-  {
-    "id": 2,
-    "name": "Omelette",
-    "category": "breakfast",
-    "price": 200,
-    "diet": "diabetic",
-    "available": true,
-    "image": "/images/Breakfast2.jpg"
+
+  "Tuesday": {
+    "breakfast": [
+      {
+        "name": "Weetabix",
+        "image": "./images/Breakfast4.jpeg"
+      },
+      {
+        "name": "Fried Egg",
+        "image": "./images/Breakfast9.jpeg"
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Rice",
+        "image": "/images/Lunch4.jpeg"
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Mixed Vegetables",
+        "image": "/images/Dinner3.jpeg"
+      }
+    ]
   },
-  {
-    "id": 3,
-    "name": "Rice & Beef Stew",
-    "category": "lunch",
-    "price": 450,
-    "diet": "regular",
-    "available": true,
-    "image": "/images/Lunch1.jpg"
+
+  "Wednesday": {
+    "breakfast": [
+      {
+        "name": "Boiled Eggs",
+        "image": "/images/Breakfast8.jpeg"
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Spinach",
+        "image": "/images/Lunch6.jpeg"
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Matoke",
+        "image": "/images/Dinner3.jpeg"
+      }
+    ]
   },
-  {
-    "id": 4,
-    "name": "Ugali & Sukuma Wiki",
-    "category": "lunch",
-    "price": 350,
-    "diet": "low-sodium",
-    "available": true,
-    "image": "/images/Lunch2.jpg"
+
+  "Thursday": {
+    "breakfast": [
+      {
+        "name": "Uji",
+        "image": "/images/Breakfast6.jpeg"
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Mukimo",
+        "image": "/images/Lunch5.jpeg"
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Ugali & Chicken",
+        "image": "/images/Dinner2.jpeg"
+      }
+    ]
   },
-  {
-    "id": 5,
-    "name": "Vegetable Soup",
-    "category": "dinner",
-    "price": 300,
-    "diet": "low-sodium",
-    "available": false,
-    "image": "/images/Dinner1.jpg"
+
+  "Friday": {
+    "breakfast": [
+      {
+        "name": "Scrambled Eggs",
+        "image": "/images/Breakfast10.jpeg"
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Beef Stew",
+        "image": "/images/Lunch2.jpeg"
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Matoke",
+        "image": "/images/Dinner2.jpeg"
+      }
+    ]
   },
-  {
-    "id": 6,
-    "name": "Chicken Stew & Rice",
-    "category": "dinner",
-    "price": 300,
-    "diet": "low-sodium",
-    "available": false,
-    "image": "/images/Dinner3.jpg"
+
+  "Saturday": {
+    "breakfast": [
+      {
+        "name": "Sausage",
+        "image": "/images/Breakfast3.jpeg"
+      },
+      {
+        "name": "Cornflakes",
+        "image": "/images/Breakfast5.jpeg"
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Ugali & Fish",
+        "image": "/images/Lunch8.jpeg"
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Rice & Chicken",
+        "image": "/images/Dinner2.jpeg"
+      }
+    ]
+  },
+
+  "Sunday": {
+    "breakfast": [
+      {
+        "name": "Cornflakes",
+        "image": "/images/Breakfast5.jpeg"
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Ugali",
+        "image": "/images/Lunch3.jpeg"
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Mixed Vegetables",
+        "image": "/images/Dinner3.jpeg"
+      }
+    ]
   }
-]
+}

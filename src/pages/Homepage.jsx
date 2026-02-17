@@ -1,29 +1,41 @@
 import React from "react";
-import { QRCodeCanvas } from "qrcode.react";
+import { useNavigate } from "react-router-dom";
+import Header from "../components/Header";
 
 function Homepage() {
+  const navigate = useNavigate();
+
   return (
-    <div className="min-h-screen w-full bg-gray-50 px-4 py-6 flex flex-col items-center">
-      <header className="w-full">
-        <h1 className="text-left text-4xl md:text-5xl font-bold text-blue-700">
-          Avenue Hospital
+    <div className="min-h-screen w-full bg-linear from-blue-50 to-indigo-100 px-4 py-6 flex flex-col items-center justify-center">
+      <Header />
+
+      <div className="flex flex-col items-center gap-8 w-full max-w-md">
+        <h1 className="text-4xl font-bold text-center text-gray-800">
+          Hospital Menu
         </h1>
-      </header>
 
-      <p className="text-center text-lg my-4">
-        Scan the QR code below to view today's menu and place your order.
-      </p>
+        <p className="text-center text-lg text-gray-700">
+          Scan the QR code to view today's menu and breakfast, lunch, dinner options
+        </p>
 
-      <div className="bg-white p-4 rounded-lg shadow-md">
-        <QRCodeCanvas
-          value="https://hospital-menu-xnzq.vercel.app/menupage" 
-          size={200}
-        />
+        <button
+          onClick={() => navigate("/scanner")}
+          className="w-full px-8 py-4 text-xl font-bold text-white bg-blue-500 rounded-lg shadow-lg hover:bg-blue-600 transition transform hover:scale-105"
+        >
+          📱 Start QR Scanner
+        </button>
+
+        <button
+          onClick={() => navigate("/menupage")}
+          className="w-full px-8 py-4 text-lg font-semibold text-blue-600 bg-white rounded-lg shadow-md hover:shadow-lg border-2 border-blue-500 transition"
+        >
+          View Menu Without Scanning
+        </button>
+
+        <p className="text-gray-500 text-sm text-center">
+          Use your phone camera to scan the QR code displayed at the ward
+        </p>
       </div>
-
-      <p className="text-gray-500 text-sm mt-2 text-center">
-        Scan using your phone camera
-      </p>
     </div>
   );
 }
